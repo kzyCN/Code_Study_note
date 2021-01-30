@@ -60,7 +60,7 @@
 </configuration>
 ```
 
-![image-20200810123653787](https://gitee.com/kzycn/picCloud/raw/master/20200810123700.png)
+![image-20200810123653787](https://gitee.com/kzycn/picCloud/raw/master/2020/20200810124641.png)
 
 ### 加载全局配置文件
 

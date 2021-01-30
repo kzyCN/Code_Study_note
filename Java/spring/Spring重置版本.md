@@ -1,8 +1,11 @@
 ---
 title: Spring 框架
-data: 2020-8-1
+date: 2020-8-1
+updated: 2020-8-1
 categories: Springboot
 tags: Spring
+cover: https://gitee.com/kzycn/picCloud/raw/master/2021/20210125161233.jpg
+top_img: https://gitee.com/kzycn/picCloud/raw/master/2021/20210125161233.jpg
 ---
 
 
