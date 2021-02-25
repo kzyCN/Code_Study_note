@@ -76,6 +76,7 @@ signature 是对前两部分的签名，防止数据篡改
 - 方式1、可以放在 Cookie 里面自动发送，但是这样不能跨域
 
 - 方式2、更好的做法是放在 HTTP 请求的头信息`Authorization`字段里面
+  
 ```JWT
     Authorization: Bearer <token>
 ```
