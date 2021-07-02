@@ -32,5 +32,53 @@ Redis官网（英文）：https://redis.io/
 
 Redis官网（中文）：http://www.redis.cn/
 
-> 引言
+## Redis基础知识
 
+redis默认有16个数据库
+
+redis默认端口为6379
+
+默认使用的是第0个
+
+可以使用`select`进行切换数据库
+
+`keys *`查看所有的key
+
+`flushdb`清空当前库
+
+`flushall`清空所有库
+
+> redis是单线程的
+
+redis是基于内存操作，cpu不是redis的瓶颈，redis的瓶颈是根据机器的内存和网络带宽决定的（6.0版本为多线程）
+
+##　五大数据类型
+
+### Redis-key
+
+```redis
+keys *              # 查看所有的key
+
+set [key] [value]   # 设置k-v
+
+exists [key]        # 判断当前key是否存在
+
+move [key]          # 移除当前的key
+
+expire [key]        # 设置key的过期时间，单位：秒
+
+ttl [key]           # 查看当前key的剩余时间
+
+type [key]          # 查看key的类型
+```
+
+### String(字符串)
+```redis
+append [key] [" "]      # 追加字符串，如果当前key不存在，则相当于setkey
+
+strlen [key]            # 获取字符串长度
+
+setex # 设置过期时间
+
+setnx # 不存在在设置（分布式锁）
+```
