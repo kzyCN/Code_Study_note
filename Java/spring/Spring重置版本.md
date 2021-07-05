@@ -80,8 +80,6 @@ Spring是轻量级开源的JavaEE框架，解决企业应用开发的复杂性�
 
 入的方式, **实现对象与对象之间的解耦**.(高内聚,低耦合) 
 
-![控制反转和依赖注入](https://gitee.com/kzycn/picCloud/raw/master/%E6%8E%A7%E5%88%B6%E5%8F%8D%E8%BD%AC%E5%92%8C%E4%BE%9D%E8%B5%96%E6%B3%A8%E5%85%A5.png)
-
 ## 面向切面编程（AOP）
 
 Spring 框架的一个关键组件是面向切面的程序设计（AOP）框架。
@@ -120,8 +118,6 @@ Spring 框架的 AOP 模块提供了面向切面的程序设计实现，允许�
 
 ### 1.创建maven工程
 
-![image-20200927070024820](https://gitee.com/kzycn/picCloud/raw/master/image-20200927070024820.png)
-
 ### 2.项目依赖
 
 ```XML
@@ -151,8 +147,6 @@ Spring 框架的 AOP 模块提供了面向切面的程序设计实现，允许�
 ```
 
 ### 3.配置文件
-
-![image-20200927070220653](https://gitee.com/kzycn/picCloud/raw/master/image-20200927070220653.png)
 
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
