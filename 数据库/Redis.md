@@ -82,3 +82,8 @@ setex 					# 设置过期时间
 
 setnx 					# 不存在在设置（分布式锁）
 ```
+
+## Jedis
+
+> 使用Java操作redis
+
